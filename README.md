@@ -18,7 +18,7 @@ The config file is self explanatory.
 2.  
     - Download/Copy the file to your directory
     ```
-        curl ledger-exchange-rate-generator_1.0-linux-x64
+        curl https://github.com/arun-doss/ledger-exchange-rate-generator/releases/download/ledger-exchange-rate-generator/ledger-exchange-rate-generator_1.0-linux-x64
     ```
     - In Linux make the ledger-exchange-rate-generator* file as executable
     ```
@@ -26,7 +26,7 @@ The config file is self explanatory.
     ```
     - Download the sample config.json file in the same driectory
     ```
-        curl ledger-exchange-rate-generator_1.0-linux-x64
+        curl https://raw.githubusercontent.com/arun-doss/ledger-exchange-rate-generator/refs/heads/master/config.json
     ```
     - Edit the config.json to match your needs
     - Run the ledger-exchange-rate-generator* file
