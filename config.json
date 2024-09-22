@@ -1,0 +1,46 @@
+{
+    "LedgerExchangeFile": "Exchange.ledger.Sample",
+    "FreeCurrencyApiKey": "fca_live_MrKSVrd2TloEhcSivMQ7CcAnMzXvofeLDm1p7qyt",
+    "AlphaVantageApiKey":"W1RG57WB8FM0DRY9",
+    "DecimalCount": 4,
+    "ExchangeCurrencies": [
+        {
+            "sourceCurrency":"QAR",
+            "baseCurrency":"INR",
+            "standardUSDRate":3.66
+        },
+        {
+            "sourceCurrency":"AED",
+            "baseCurrency":"INR",
+            "standardUSDRate":3.67
+        },
+        {
+            "sourceCurrency":"USD",
+            "baseCurrency":"INR"
+        }
+    ],
+    "MutualFundsIndia": [
+        {
+            "fundNickName":"NiftyFifty",
+            "fundMfApiId":"120716",
+            "baseCurrency":"INR"
+        }, 
+        {
+            "fundNickName":"NiftyNextFifty",
+            "fundMfApiId":"143341",
+            "baseCurrency":"INR"
+        }
+    ],
+    "StocksIndia": [
+        {
+            "fundNickName":"PONNIERODE",
+            "fundMfApiId":"PONNIERODE",
+            "baseCurrency":"INR"
+        }, 
+        {
+            "fundNickName":"IRCTC",
+            "fundMfApiId":"IRCTC",
+            "baseCurrency":"INR"
+        }
+    ]
+}

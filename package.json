@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1",
+    "date-fns": "^4.1.0",
+    "stock-nse-india": "^1.1.6"
+  },
+  "name": "ledger-exchange-rate-generator",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild index.js --bundle --outfile=ledger-exchange-rate-generator.js --platform=node",
+    "distribute": "esbuild index.js --bundle --outfile=ledger-exchange-rate-generator.js --platform=node & pkg ledger-exchange-rate-generator.js -t node20-linux-arm64,node20-windows-arm64,node20-macos-arm64,node20-linux-x64,node20-windows-x64,node20-macos-x64 --output ./releases/ledger-exchange-rate-generator_$npm_package_version",
+    "deploy": "pkg ledger-exchange-rate-generator.js --targets node20-linux-x64"
+  },
+  "version": "1.0",
+  "description": "Application to append exchange and indian mutual funds rate to ledger-cli file",
+  "devDependencies": {
+    "esbuild": "0.23.1"
+  }
+}
